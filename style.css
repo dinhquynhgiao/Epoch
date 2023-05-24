@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-bg-color: #122337;
+    --primary-font-color: rgba(255, 255, 255, 1);
+    --secondary-font-color: rgba(255, 255, 255, 0.7);
+    --primary-font-family: "Bebas Neue";
+    --secondary-font-family: "Montserrat", sans-serif;
+    --small-font-size: 575px;
+}
+
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+body{
+    position: relative;
+    font-family: var(--secondary-font-family)
+}
+
+.l-navbar{
+    background-color: #122337;
+}
